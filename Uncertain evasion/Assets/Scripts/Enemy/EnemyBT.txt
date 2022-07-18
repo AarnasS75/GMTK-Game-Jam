@@ -1,0 +1,30 @@
+tree("Root")
+	sequence
+		Patrol
+		InitiateChase
+		ChasePlayer
+		Attack
+
+
+
+
+
+/*
+	while
+		CloseToPlayer
+		sequence
+			SetDestination
+			ChasePlayer
+*/
+/*	fallback
+		tree("SearchForPlayer")
+		tree("Combat")
+
+tree("SearchForPlayer")
+	while
+		CloseToPlayer
+		sequence
+			SetDestination
+			ChasePlayer
+			Attack
+*/

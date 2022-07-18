@@ -1,0 +1,7 @@
+tree("Root")
+	sequence
+		Patrol
+		InitiateChase
+		ChasePlayer
+		Shoot
+		Wait 0.7
